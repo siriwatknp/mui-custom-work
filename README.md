@@ -23,3 +23,8 @@
 
 <img width="1427" alt="Screen Shot 2564-06-23 at 09 00 17" src="https://user-images.githubusercontent.com/18292247/123023359-74871e00-d401-11eb-93e5-d2f81042c863.png">
 
+### 28 components theme
+
+~ 1000 lines
+
+<img width="1430" alt="Screen Shot 2564-06-23 at 09 28 56" src="https://user-images.githubusercontent.com/18292247/123025836-7652e080-d405-11eb-85b7-0d60c6182b97.png">
