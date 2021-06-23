@@ -4,6 +4,24 @@
 
 ![material-ui_architecture](https://user-images.githubusercontent.com/18292247/123029913-16136d00-d40c-11eb-8058-d8ba1b63424f.jpg)
 
+**General Guidelines**
+
+- Lean toward styling rather than theming for bundle size optimization.
+- Create styles for specific use if the UI looks different than normal eg. adsButtonStyles. [see example](/siriwatknp/mui-custom-work/blob/main/src/styles/adsButtonStyles.ts)
+
+  ```jsx
+  import { useAdsButtonStyles } from 'path/to/styles';
+
+  function App() {
+    const classes = useAdsButtonStyles();
+    return (
+      <Button classes={classes} />
+    )
+  }
+  ```
+
+- For multiple application that want to share components (but slightly different design), create custom components that can be customized in theme. [see example](/siriwatknp/mui-custom-work/blob/main/src/components/CustomComponent.tsx)
+
 ## Bundle Size
 
 ### Styling-engine
